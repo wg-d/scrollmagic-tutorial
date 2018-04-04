@@ -91,7 +91,16 @@ body {
     text-align: center;
     padding: 200px 0;
     border-bottom: 1px #ebebeb solid;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease-out;
 }
+
+.project.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .project img {
     width: 180px;
     height: 180px;
@@ -116,20 +125,20 @@ body {
     text-align: center;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
-    background-color: #06060d; 
+    background-color: #06060d;
 }
 .footer-container .wrapper {
     width: 80%;
     max-width: none;
-    margin: 0 10%; 
+    margin: 0 10%;
 }
 .footer-container h3 {
     margin: 0;
     padding: 20px 0;
-    font-weight: normal; 
+    font-weight: normal;
 }
 .footer-container a {
-    color: rgba(255, 255, 255, 0.5); 
+    color: rgba(255, 255, 255, 0.5);
 }
 
 
