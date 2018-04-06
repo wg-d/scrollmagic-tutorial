@@ -6,7 +6,7 @@ $(document).ready(function(){
 	// pin the intro
 
 	var pinIntroScene = new ScrollMagic.Scene({
-		triggerElement: #intro,
+		triggerElement: "#intro",
 		triggerHook: 0
 	})
 	.setPin("#intro")
