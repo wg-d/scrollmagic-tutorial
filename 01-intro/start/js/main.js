@@ -7,9 +7,19 @@ $(document).ready(function(){
 
 	var pinIntroScene = new ScrollMagic.Scene({
 		triggerElement: "#intro",
-		triggerHook: 0
+		triggerHook: 0,
+		duration: "30%"
 	})
-	.setPin("#intro")
+	.setPin("#intro", {pushFollowers: false})
+	.addTo(controller);
+
+	// pin again
+
+	var pinIntroScene2 = new ScrollMagic.Scene({
+		triggerElement: "#project01",
+		triggerHook: "40%"
+	})
+	.setPin("#intro", {pushFollowers: false})
 	.addTo(controller);
 
 	// loop through each project element
