@@ -125,6 +125,14 @@ body {
   background-color: #FFF;
 }
 
+.bcg-parallax {
+  padding: 40px;
+  color: #FFF;
+  background-color: #000;
+  position: relative;
+  overflow: hidden;
+}
+
 /* =Footer */
 .footer-container {
     text-align: center;
